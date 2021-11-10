@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the dot</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <nav>
+        <div class="header">
+            <div class="ml-2 mt-6 flex justify-between lg:hidden">
+                <h1 class="text-indigo-700 text-sm font-bold">JOIN THE DOT</h1>
+                <img src="./hamburger.png" id="hamburger" alt="" class="w-6 mr-10 cursor-pointer">
+            </div>
+            <div class="container ml-auto m-8">
+                <div class="left-side lg:flex lg:flex-col lg:ml-60">
+                    <h1 class="text-indigo-700 text-sm font-bold lg:text-4xl hidden lg:block join">JOIN<br>THE <br>DOT</h1>
+                    <ul class="mt-10 text-indigo-700 hidden lg:block ul-show" id="ul-show"> 
+                        <li class="text-lg cursor-pointer li-ul">form</li>
+                        <li class="text-lg cursor-pointer mt-10 lg:mt-2">events</li>
+                        <li class="text-lg cursor-pointer mt-10 lg:mt-2">blog</li>
+                        <li class="text-lg cursor-pointer mt-10 lg:mt-2">contact</li>
+                    </ul>
+                </div>
+                <div class="right-side p-8 text-white pr-72">
+                    <h1 class="text-3xl tracking-widest event">EVENTS</h1>
+                    <h6 class="mt-6 text-sm font-bold featured-events">Featured Events</h6>
+                    <hr class="w-24 mt-1">
+                    <h1 class="text-3xl font-bold startup-girl">STARTUP GIRLS</h1>
+                    <h4 class="text-xs font-bold mb-2">10April 2020 (Bengaluru) </h4>
+                    <p class="text-xs font-light">Lorem ipsum dolor sit,amet consectetur adipisicing elit.<br>Harum laborum sint illum.Id omnis quas quod officia voluptas dolor perferendis. <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Est, molestias! </p>
+                    <a href="#" class="text-xs font-bold pt-2 text-blue-500" >VIEW MORE</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Search section start -->
+        <div class="mt-32 mr-10 lg:mt-16 flex items-end justify-end max-w-screen-xl lg:mr-28">
+            <div class="input flex items-center relative">
+                <input type="text" placeholder="search" class=" border-2 border-solid rounded-md border-gray-300 px-4 py-2">
+                <i class="fas fa-search absolute right-4"></i>
+            </div>
+        </div>
+
+         <!-- Three grid start -->
+         <div class="container mx-auto max-w-screen-lg mt-10">
+             <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 " >
+                 <div class="mx-10 image flex flex-col items-center lg:mx-1">
+                    <h6 class="-ml-52 uppercase text-gray-500 mb-2 text-sm lg:-mr-20">19th April 2020 | Bengaluru</h6>
+                 <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="" class="image-anim1">
+                 <button class="btn bg-black text-white mt-2 w-36 py-2 rounded">RSVP</button>
+                 </div>
+
+                 <div class="mx-10 image flex flex-col items-center lg:mx-1">
+                    <h6 class="-ml-52 uppercase text-gray-500 mb-2 text-sm lg:-mr-20">19th April 2020 | Bengaluru</h6>
+                 <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="" class="image-anim2">
+                 <button class="btn bg-black text-white mt-2 w-36 py-2 rounded">RSVP</button>
+                 </div>
+
+                 <div class="mx-10 image flex flex-col items-center lg:mx-1">
+                    <h6 class="-ml-52 uppercase text-gray-500 mb-2 text-sm lg:-mr-20">19th April 2020 | Bengaluru</h6>
+                 <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="" class="image-anim1">
+                 <button class="btn bg-black text-white mt-2 w-36 py-2 rounded">RSVP</button>
+                 </div>
+
+               
+
+                
+             </div>
+         </div>
+
+         <!-- Load more start -->
+             <div class="flex items-center justify-center mt-20">
+                <button class="btn bg-indigo-700 text-white mt-2 px-10 py-1 rounded">Load More</button>
+             </div>
+
+        <!-- Contact form start -->
+        <div class="background">
+            <div class="flex flex-col items-center mt-10 justify-center">
+                <h1 class="text-center text-white pt-10 uppercase text-lg font-light keep-touch">Lets Keep In Touch</h1>
+                <h6 class="text-white text-center font-light weekly">Join our weekly newsletter to know the latest news, <br>stories and startup events around you</h6>
+                <input type="text" placeholder="Enter your Email here" class="mt-4 px-12 py-1 rounded">
+                <button class="btn-inspire px-10 py-1 mt-4 rounded mb-10">Get Inspired</button>
+            </div>
+        </div>
+
+        <!-- Quote section start -->
+        <div class="flex flex-col items-center mt-10 justify-center">
+            <i class="fas fa-quote-right text-2xl"></i>
+            <p class="text-black text-center mt-4 mx-6 lg:mx-64 quote">As a startup Join the Dot is a truly valuable resource and is allowing us to grow our business
+                with each piece of information on the website Thank you for being an outsanding community
+            </p>
+            <h4 class="text-sm mt-2 mb-10"><span class="font-bold">Vani Kola</span>(M.D. Kalaan Capital)</h4>
+        </div>
+
+        <!-- Footer starts -->
+        <div class="footer">
+            <div class="flex flex-col items-center justify-center">
+                <h1 class="text-center py-4 uppercase text-xs">&copy; JOIN THE DOTS 2021</h1>
+        </div>
+
+        <script src="./script.js"></script>
+        
+</body>
+</html>

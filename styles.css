@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    background-image: url('https://image.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side h1{
+    letter-spacing: 20px !important;
+}
+
+.right-side{
+    background-image: url('https://image.freepik.com/free-vector/abstract-shape-with-halftone-background_1409-1277.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background{
+    background-color: #17182c;
+}
+
+.btn-inspire{
+    background-color: #00fed9;
+}
+
+.footer{
+    background-color: #00fed9
+}
+
+.hidden-navbar{
+    width: 100vw;
+    height: 100vh;
+    overflow-y:hidden;
+    position: absolute;
+}
+
+.hidden-navbar li{
+    margin-top: 100px;
+}
+
+.ul-show.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    transition: all 1s ease-in-out;  
+} 
